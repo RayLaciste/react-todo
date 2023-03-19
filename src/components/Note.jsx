@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function Note(props){
+    // function is called when button is clicked
     function handleClick() {
         props.onDelete(props.id);
     }
